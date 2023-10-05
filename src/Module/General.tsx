@@ -26,9 +26,9 @@ import { default as lyin } from './Assets/teami/lyin.jpg';
 
 // Importing all Team members images  from Assets
 
-import me from './Assets/teami/me.png';
+import me from './Assets/teami/Pic.jpeg';
 import moon from './Assets/teami/moon.png';
-import Ryah from './Assets/teami/Ryah.jpg';
+import Ryah from './Assets/teami/mh.png';
 import zoha from './Assets/teami/zoha.png';
 
 const TOP_SECTION = {
@@ -210,8 +210,8 @@ const TeamInfo = [
     {
       Name: 'Vikash Kumar Yadav',
       role: 'Founder',
-      github: 'https://github.com/Limbo-Hacks/Hackathon-website-template',
-      linkedin: '',
+      github: 'https://github.com/Vikash-8090-Yadav',
+      linkedin: 'https://www.linkedin.com/in/vikash-kumar-yadav-8090/',
       img: me
     },
     {
@@ -232,15 +232,22 @@ const TeamInfo = [
   [
     //Array 2
     {
-      Name: 'Lyanola',
-      role: 'Organizer',
+      Name: 'Suryanash Parajapti',
+      role: 'Community Manager',
       github: '',
       linkedin: '',
       img: lyin
     },
     {
-      Name: 'Zoheb',
-      role: 'Organizer',
+      Name: 'Abdul',
+      role: 'Desginer Lead',
+      github: '',
+      linkedin: '',
+      img: zoha
+    },
+    {
+      Name: 'Abdul',
+      role: 'Desginer Lead',
       github: '',
       linkedin: '',
       img: zoha
