@@ -138,12 +138,8 @@ const NAVBAR = ({}) => {
       </nav>
 
       <Routes>
-        <Route path="/blog" exact={true}>
-          <MdxContent />
-        </Route>
-        <Route path="/" exact={true}>
-          <HomePage />
-        </Route>
+      <Route path="/blog" element={<MdxContent />} />
+  <Route path="/" element={<HomePage />} />
       </Routes>
     </Router>
   );
